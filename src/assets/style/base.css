@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	/*min-width: 1200px;*/
+	min-height: 100vh;
+}
+
+[v-cloak]{
+	display: none !important;
+}
+
+.wrap{
+	width: 100%;
+	min-width: 1200px;
+}
+
+.main{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+li{
+	list-style: none;
+	outline: none;
+}
+
+.lazyload{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btn{
+	border: none;
+	outline: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
